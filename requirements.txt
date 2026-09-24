@@ -5,3 +5,5 @@ langchain-ollama
 faiss-cpu
 python-dotenv
 PyPDF
+fastapi
+uvicorn
