@@ -1,3 +1,3 @@
-from .prompt import ContextPrompt
+from .templates import contextPrompt
 
-__all__ = ["ContextPrompt"]
+__all__ = ["contextPrompt"]

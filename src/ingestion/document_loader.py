@@ -6,4 +6,4 @@ def load_documents(data_path: str):
         glob="*.pdf",
         loader_cls=PyPDFLoader,
     )
-    return loader.load()
+    return loader.lazy_load()
